@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Pliki źródłowe">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Pliki zasobów">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Pliki źródłowe\images">
+      <UniqueIdentifier>{d15ad873-d4d1-4d5b-ac4a-33eb6fdbc2de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\fonts">
+      <UniqueIdentifier>{93ee9ccc-f4d7-47f0-a32d-f300e2f7b8b2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="images\Board.png">
+      <Filter>Pliki źródłowe\images</Filter>
+    </Image>
+    <Image Include="images\CalAlb.png">
+      <Filter>Pliki źródłowe\images</Filter>
+    </Image>
+    <Image Include="images\CalNegru.png">
+      <Filter>Pliki źródłowe\images</Filter>
+    </Image>
+    <Image Include="images\NebunAlb.png">
+      <Filter>Pliki źródłowe\images</Filter>
+    </Image>
+    <Image Include="images\NebunNegru.png">
+      <Filter>Pliki źródłowe\images</Filter>
+    </Image>
+    <Image Include="images\PionAlb.png">
+      <Filter>Pliki źródłowe\images</Filter>
+    </Image>
+    <Image Include="images\PionNegru.png">
+      <Filter>Pliki źródłowe\images</Filter>
+    </Image>
+    <Image Include="images\RegeAlb.png">
+      <Filter>Pliki źródłowe\images</Filter>
+    </Image>
+    <Image Include="images\RegeNegru.png">
+      <Filter>Pliki źródłowe\images</Filter>
+    </Image>
+    <Image Include="images\ReginaAlb.png">
+      <Filter>Pliki źródłowe\images</Filter>
+    </Image>
+    <Image Include="images\ReginaNegru.png">
+      <Filter>Pliki źródłowe\images</Filter>
+    </Image>
+    <Image Include="images\TransformareAlb.png">
+      <Filter>Pliki źródłowe\images</Filter>
+    </Image>
+    <Image Include="images\TransformareNegru.png">
+      <Filter>Pliki źródłowe\images</Filter>
+    </Image>
+    <Image Include="images\TurnAlb.png">
+      <Filter>Pliki źródłowe\images</Filter>
+    </Image>
+    <Image Include="images\TurnNegru.png">
+      <Filter>Pliki źródłowe\images</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="fonts\Cour.ttf">
+      <Filter>Pliki źródłowe\fonts</Filter>
+    </Font>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="stockfish.exe">
+      <Filter>Pliki źródłowe</Filter>
+    </None>
+  </ItemGroup>
+</Project>
